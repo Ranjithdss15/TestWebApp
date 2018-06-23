@@ -1,0 +1,245 @@
+body{
+background: linear-gradient(to bottom right,#f10000e3 ,#872cff );
+    height: 200%;
+	//background: linear-gradient(to bottom right,#a57cff ,#6d2bff );
+height:4000px;}
+
+
+
+
+.hbar{
+position:fixed;
+ /*background: rgba(39, 0, 255, 0.5); */
+	    background: rgba(134, 114, 114, 0.5);
+width:100%;
+height:75px;
+top:0;
+left:0;
+z-index:7;
+color:white;
+font-family:verdana;
+}
+#searchbar1 {
+width:500px;
+height:26px;
+background:white;
+outline:none;
+padding:5px;
+border-radius: 10px/10px;
+background-position:465px;
+background-repeat:no-repeat;
+}
+#searchbar{
+    top: 23px;
+    left: 240px;
+    height: 26px;
+    width: 500px;
+}
+#profilearea{
+top:20px;
+left:780px;
+height:0;
+}
+#profilearea1{
+top: 25px;
+    left: 830px;
+    height: 0;
+    font-size: 18px;
+    font-family: verdana;
+}
+#profilearea2{
+top:10px;
+left:750px;
+height:0px;
+font-size:40px;
+font-family:verdana;
+}
+#status{
+top: 28px;
+    left: 900px;
+    height: 18px;
+    /* right: 0px; */
+    width: 110px;
+    font-size: 40px;
+    font-family: verdana;
+    background-color: green;
+    float: left;
+    overflow: hidden;
+	border-radius: 10px/10px;
+ }
+ 
+ #status:hover{
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 8px rgba(42, 0, 255, 255);
+  
+border-radius: 10px/10px;
+ }
+ 
+ 
+.cover{
+	left:100px;
+	top:60px;
+	background:white;
+	height:360px;
+	width:850px;
+	position:absolute;
+	display:none;
+	}
+	.coverpic {
+	background:white;
+	left:100px;
+	    top: 75px;
+    height: 360px;
+	width:850px;
+	position:absolute;
+	-webkit-box-shadow: 3px 3px 8px rgba(102, 255, 51, .75);
+	//	-webkit-box-shadow: 3px 3px 8px rgba(102, 255, 51, .75);
+	}
+	.profiletile {
+		width:160px;
+		height:160px;
+padding:5px;
+top:240px;
+left:110px;
+background:white;
+position:absolute;
+border-radius:5px/5px;
+	}
+	.profilepic{
+		width:165px;
+height:165px;
+top:240px;
+left:110px;
+position:absolute;
+border-radius:5px/5px;
+-webkit-box-shadow: 3px 3px 8px rgba(0, 255, 0, 250);
+	}
+
+.nameholder{
+	   top: 438px;
+    //background: linear-gradient(to bottom right,#ff2626a3 ,#0072ffb3 );
+        background: linear-gradient(to right,#e91d30 ,#f555ff  );
+	position: absolute;
+    color: ghostwhite;
+    left: 100;
+    width: 850;
+    height: 60px;
+}
+
+#navigationlink {
+	font-size: 33px;
+    flex-wrap: wrap;
+    align-items: center;
+	display: block;
+	clear: both;
+	
+}
+#namewritten {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"	
+
+}
+	
+.posts {
+    background-color: #e91d306b;
+    /* top: 500; 
+    margin-top: 493px; 
+    position: absolute; */
+    margin-left: 93;
+    left: 100;
+    width: 850;
+    height: 245px;
+	-webkit-box-shadow: inset 1px 1px 20px 1px rgba(6, 35, 175, 0.75);
+
+}
+
+.postsNext {
+        background-color: #e91d306b;
+    /* top: 500; 
+    margin-top: inherit;
+     position: absolute; */
+    margin-left: 93px;
+    left: 100;
+    width: 850;
+    height: 600;
+    -webkit-box-shadow: inset 1px 1px 20px 1px rgba(6, 35, 175, 0.75);
+
+}
+
+.postVideo{
+
+   
+}
+
+iframe{
+
+      width: 800px;
+    height: 406px;
+    padding-left: 24px;
+    padding-top: 10;
+    padding-bottom: 10
+
+}
+
+.gridLayout{
+    display: grid;
+    margin-top: 501;
+
+}
+
+
+
+.gstclass{
+	      align-items: center;
+    align-self: center;
+    text-align: right;
+    /* text-indent: 120px; */
+    display: block;
+    padding-right: 7%;
+    text-align: center;
+}
+label {
+	    align-content: center;
+    text-align: right;
+    float: left;
+    display: block;
+    width: 21em;
+    padding-right: 0em;
+}
+
+.likeComment{
+	    align-content: center;
+    align-items: center;
+    align-self: center;
+    padding-left: 30px;
+   /* padding-top: 190; */
+}
+.likeclass , .commentb {
+	border-radius:5px/5px;
+	
+}
+
+.commentclass{
+    width: 650;
+    height: 50;
+
+}
+.likecount{
+	
+font-size: 20;
+	color: white;
+}
+
+.commentoutput{
+    padding-left: 80px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: white;
+    scroll-behavior: smooth;
+    background-color: #ff000052;
+    width: 714px;
+    position: absolute;
+    height: 90px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+}

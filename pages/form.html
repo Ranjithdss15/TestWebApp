@@ -1,0 +1,63 @@
+<html>
+	
+	<head>
+		<title>
+			Profile form
+		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" href="formcss.css">
+	</head>
+	<body>
+	<div id="header" class="header">
+	<div id="headerContent">
+		
+			<a href="/" class="link">Login</a>
+			<a href="#" class="link">Register</a>
+		</div>
+	</div>
+	<div>
+		<h1 align="center">Welcome</h1>
+		
+	</div>
+	<div class="form" align="center">
+		<label>Enter the username:</label>
+		<input type="text" id="username" name="uname" ><br>
+		<label>Enter the password:</label>
+		<input type="password" id="password" name="password" ><br>
+		<label>Enter the password again:</label>
+		<input type="password" id="passwordconf" name="password" ><br>
+		<label>Enter your FullName:</label>
+		<input type="text" id="name" name="name"><br>
+		<label>Enter your dob:</label>
+		<input type="date" id="dob" name="dob"><br>
+		<label>Enter your valid e-mail id:</label>
+		<input type="email" id="email" name=email><br>
+		<label>Enter your contact number:</label>
+		<input type="number" id="phn" name="phn"><br>
+		<input type="button" id="submit" value="Register" align="middle">
+		<span id="spanhere"></span>
+		</div>
+		
+		<div class="footer" align="center">
+		<span>made with</span>
+		<img src="heartgif.gif" alt="Love" id="footerimg" onMouseOver="onheart()" onMouseOut="heart()">
+		<span>by</span>
+		<a href="https://facebook.com/ranjith.doss">Ranjith</a>
+		</div>
+		<script>
+		function onheart() {
+			var onheart = document.getElementById('footerimg');
+			onheart.style.height=25;
+			console.log("OnHeart");
+		}
+				function heart() {
+			var onheart = document.getElementById('footerimg');
+			onheart.style.height=15;
+			console.log("OnHeart");
+		}
+		</script>
+		
+<script type="text/javascript" src="dbmain.js"> </script>
+	</body>
+</html>

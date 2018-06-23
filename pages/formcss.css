@@ -1,0 +1,108 @@
+
+			label{
+			
+		}
+		.form{
+			
+			   /* align-content: center;
+    text-align: right;
+    margin-left: 50%;
+			margin-top: 20%; */
+			
+		}
+			input{
+				
+			}
+.header {
+	       /* background-color: darkgrey; */
+    height: 15%;
+    animation: colorchange 15s; /* animation-name followed by duration in seconds*/
+    -webkit-animation: colorchange 15s; 
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	
+	
+}
+
+
+@keyframes colorchange
+    {
+  0%   {background: white;}
+      100% {background: black;}
+	
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+  0%   {background: white;}
+      100% {background: black;}
+    }
+
+
+
+#headerContent{
+	color: cornsilk;
+text-align: right;
+    word-spacing: 10;
+    font-size: 20;	
+	    padding-top: 15;
+	padding-right: 2%
+
+}
+
+ .link
+{ color: cornsilk;
+ animation: colorchange2 15s; /* animation-name followed by duration in seconds*/
+    -webkit-animation: colorchange2 15s; 
+	animation-iteration-count: infinite;
+	animation-direction: alternate;}
+
+
+@keyframes colorchange2
+    {
+  0%   {color: black;}
+      100% {color: white;}
+	
+    }
+
+    @-webkit-keyframes colorchange2 /* Safari and Chrome - necessary duplicate */
+    {
+  0%   {color: black;}
+      100% {color: white;}
+    }
+
+
+.footer{
+	    padding-top: 18%;
+	
+}
+#footerimg{
+	    height: 15px;
+}
+
+
+
+
+
+
+/*Keyframe backup
+
+@keyframes colorchange
+    {
+  0%   {background: #192e5b;}
+      25%  {background: #111266;}
+      50%  {background: #47475b;}
+      75%  {background: #510808;}
+      100% {background: #302e2e;}
+	
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate 
+    {
+      0%   {background: #192e5b;}
+      25%  {background: #111266;}
+      50%  {background: #47475b;}
+      75%  {background: #510808;}
+		100% {background: #302e2e;}
+    }
+*/
